@@ -1,0 +1,31 @@
+# Secrets — NUNCA subir esto a GitHub (contiene tus API keys y contraseña)
+.streamlit/secrets.toml
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Datos de pacientes / exports que no deben ir al repo
+*.zip
+chats_prueba/
+*.txt
+!requirements.txt
+
+# Excel exportados (contienen datos reales de pacientes)
+*.xlsx
+!**/plantilla*.xlsx
+
+# Streamlit
+.streamlit/secrets.toml.bak
+
+# Editor / SO
+.vscode/
+.DS_Store
+Thumbs.db
